@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: #BEE3DB;
+  margin-top: -1px;
+}
+
+.header {
+  width: 110%;
+  height: 33%;
+  background: #00171F;
+}
+
+.card-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card-grid {
+  background: #7EC8B8;
+  width: 95%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card {
+  background: #89B0AE;
+  
+}
