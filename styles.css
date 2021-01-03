@@ -18,21 +18,22 @@ body {
   flex-direction: column;
   justify-content: space-between;
   width: 100vw;
-  height: 10rem;
+  height: 16rem;
   background: #00171F;
+  padding-right: 1rem;
 }
 
 .card-display {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  width: 98%;
   overflow: auto;
 }
 
 .card-grid {
   background: #7EC8B8;
-  width: 95%;
+  width: 100%;
   display: grid;
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -41,22 +42,38 @@ body {
 
 .card {
   background: #89B0AE;
-  height: 24rem;
+  height: 38rem;
 }
 
 #username-dropdown-area {
   display: flex; 
   flex-direction: row-reverse;
-  /* width: 100%; */
-  /* height: 50%; */
+  padding: 1rem;
+
+}
+
+/* #username-dropdown-area:hover div{
+  display: inline-block;
+  position: relative;
+} */
+
+.dropdown-menu {
+  display: none;
+  background: #BEE3DB;
+  align-self: flex-start;
 }
 
 #options-area {
-  display: flex; 
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-around;
   align-items: center;
+  width: 32rem;
 }
 
-img {
+.header img {
   margin-left: 1rem;
+}
+
+.headline {
+  color: #00171F
 }

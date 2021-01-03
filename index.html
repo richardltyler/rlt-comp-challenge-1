@@ -9,8 +9,15 @@
   <body>
     <nav class="header">
       <div id="username-dropdown-area">
-        <div>some shit</div>
+        <h2 id="dropdown-area">Admin Username ▼</h2>
         <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZlYmFhZCI+PHBhdGggZD0iTTEwMy4yLDEwOC45MzMzM3YtMTEuNDY2NjdjMi41OCwtMS4yNzg1MyA5Ljk1ODgsLTEwLjA2MiAxMC43MzI4LC0xNi45MjQ4YzIuMDI5NiwtMC4xNTQ4IDUuMjE3MzMsLTIuMDE4MTMgNi4xNTc2LC05LjM3NGMwLjUwNDUzLC0zLjk1MDI3IC0xLjUwMjEzLC02LjE2OTA3IC0yLjcxNzYsLTYuODY4NTNjMCwwIDMuMDI3MiwtNS43NTA1MyAzLjAyNzIsLTEyLjY5MzZjMCwtMTMuOTIwNTMgLTUuNDYzODcsLTI1LjggLTE3LjIsLTI1LjhjMCwwIC00LjA3NjQsLTguNiAtMTcuMiwtOC42Yy0yNC4zMjA4LDAgLTM0LjQsMTUuNjAwNCAtMzQuNCwzNC40YzAsNi4zMjk2IDMuMDI3MiwxMi42OTM2IDMuMDI3MiwxMi42OTM2Yy0xLjIxNTQ3LDAuNjk5NDcgLTMuMjIyMTMsMi45MjQgLTIuNzE3Niw2Ljg2ODUzYzAuOTQwMjcsNy4zNTU4NyA0LjEyOCw5LjIxOTIgNi4xNTc2LDkuMzc0YzAuNzc0LDYuODYyOCA4LjE1MjgsMTUuNjQ2MjcgMTAuNzMyOCwxNi45MjQ4djExLjQ2NjY3Yy01LjczMzMzLDE3LjIgLTUxLjYsNS43MzMzMyAtNTEuNiw0NS44NjY2N2gxMzcuNmMwLC00MC4xMzMzMyAtNDUuODY2NjcsLTI4LjY2NjY3IC01MS42LC00NS44NjY2N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg=="/>
+        <div class="dropdown-menu">
+          <ul>
+            <li><a href="">Link1</a></li>
+            <li><a href="">Link2</a></li>
+            <li><a href="">Link3</a></li>
+          </ul>
+        </div>
       </div>
       <div id="options-area">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAB5UlEQVRIidWUvW4TQRSFvzs7kv0QsRRcoVSxvf6pUShA8AwoIMFWVIDgCUBKBQWKhUCCVwido9S2d62tEHRAAs/gRdqdS8FusC2HxNlQ5JZXo3PunPnmwmUvKSsQhmHdGLMFkKbpoNvtfr0wg8lksq2qr4Fq3kqAwPf998UZc17xMAzrufi+tXYtTdMacADsjkajK6UN8liq1tpgc3PzZ6/X++GcC/LeVmkDVa0CJEnyz5jtqsLj8bhmjHkG3AWw1vaHw+EDY4x4ntdX1akxZnCiQUGFqlazLNsrqMiFnwL38qNvVfWziOxYa4/yW01VNWg0Gt8KvbnrLaHiF/AYuDor7Jx70el0jgDiOF7Psuy2iCTGmMGs+JxBGIZ1EfnEHyqCJEnEWtsHbuZG75xzzwvhs9ZxREUsBRV5LIEx5hB44vv+q1WEj3UXG6dRsWoti+ggTdNZKm5QIqK5aaMougPsMvP1ReSRqm5wwiPng90SkeRMuyiO43Xn3HXnXMXzvL1ms/kdlmMKfAF2gEoxEAu7aOW8Fz5aBfi4QN21LMs2ipuc+0GjKHoIvLTWrs1QVzPGHIrI/Var9QZK7CIRSeA/7KKinHP7IpKctotKMb+EuqmqBu12+8OFGMBf6gCW7aLLX78BIMX+cBJie/YAAAAASUVORK5CYII=">
@@ -22,6 +29,7 @@
       </div>
     </nav>
     <main class="card-display">
+      <h2 class="headline">SHARES</h2>
       <section class="card-grid">
         <article class="card">1
         </article>
