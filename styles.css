@@ -43,6 +43,7 @@ body {
 .card {
   background: #89B0AE;
   height: 38rem;
+  box-shadow: 0rem 0rem .5rem #00171F;
 }
 
 #username-dropdown-area {
@@ -77,3 +78,39 @@ body {
 .headline {
   color: #00171F
 }
+
+.top-image {
+  display: flex; 
+  justify-content: space-between;
+  height: 33%;
+  width: 100%;
+  background: red;
+}
+
+.card-text-area {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:
+}
+
+.name-and-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text {
+  margin-block-end: 0em;
+}
+
+.bottom-text {
+  margin-block-start: 0em;
+}
+
+.embedded-link {
+  background: #BEE3DB;
+  margin-right: 1rem;
+  overflow-wrap: break-word;
+}
+
