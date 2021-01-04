@@ -1,36 +1,155 @@
+html {
+  width: 100vw;
+}
+
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  background: #BEE3DB;
+  width: 100%;
+  background: #89B0AE;
   margin-top: -1px;
+  color: #FBF2EE;
+
 }
 
 .header {
-  width: 110%;
-  height: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 16rem;
   background: #00171F;
+  padding-right: 1rem;
 }
 
 .card-display {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
+  width: 98%;
+  overflow: auto;
 }
 
 .card-grid {
-  background: #7EC8B8;
-  width: 95%;
-  height: 100%;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
   grid-gap: 20px;
 }
 
 .card {
-  background: #89B0AE;
-  
+  background: #BEE3DB;
+  height: 38rem;
+  box-shadow: 0rem 0rem .5rem #00171F;
 }
+
+#username-dropdown-area {
+  display: flex; 
+  flex-direction: row-reverse;
+}
+
+#options-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.header img {
+  margin-left: 1rem;
+}
+
+.headline {
+  color: #00171F
+}
+
+.top-image {
+  display: flex; 
+  justify-content: space-between;
+  height: 33%;
+  width: 100%;
+  background: #00171F;
+}
+
+.card-text-area {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #00171F;
+}
+
+.name-and-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text {
+  margin-block-end: 0em;
+}
+
+.bottom-text {
+  margin-block-start: 0em;
+}
+
+.embedded-link {
+  background: #89B0AE;
+  margin-right: 1rem;
+  overflow-wrap: break-word;
+}
+
+.embedded-link h6 {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.attachments-count {
+  color: #E95D8C;
+  font-size: 3rem;
+}
+
+#logo {
+  margin-left: auto;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .card-grid {
+    /* background: #7EC8B8; */
+    width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #options-area {
+    justify-content: center;
+  }
+
+  #options-area h3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .card-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 20px;
+  }
+}
+
