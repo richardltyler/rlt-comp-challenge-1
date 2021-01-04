@@ -2,7 +2,7 @@
 
 ---
 # rlt-comp-challenge-1
-###### Let;s learn some stylin'!
+###### Let's try a lil stylin'!
 ---
 
 ## Table of Contents
@@ -54,7 +54,7 @@ The page also features `normalize.css`. Normalize helps the page to be similarly
 
 ## Deployment
 
-The site can be reached at this [link]().
+The site can be reached at this [link](https://richardltyler.github.io/rlt-comp-challenge-1/index.html).
 
 ## Authors
 <table>
