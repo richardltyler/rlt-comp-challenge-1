@@ -126,16 +126,28 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .header
+@media screen and (max-width: 650px) {
+  #options-area {
+    justify-content: center;
+  }
+
+  #options-area h3 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
+  .card-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow: auto;
+  }
+
   .card-grid {
-    /* background: #7EC8B8; */
     width: 100%;
     display: grid;
-    margin: auto;
     grid-template-columns: 1fr; 
     grid-gap: 20px;
   }
